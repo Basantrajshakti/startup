@@ -381,3 +381,89 @@ body {
 .bar3 {
   width: 75%;
 }
+
+
+/* ?pricing section */
+.pricing-section {
+  background-color: #707070;
+}
+
+.pricing-section__main-heading {
+  color: white;
+}
+
+.pricing-section__sub-heading {
+  color: white;
+}
+
+.pricing-section__plans {
+  display: flex;
+  flex-direction: column;
+  margin-block: 2rem;
+}
+
+.pricing-section__plan {
+  background-color: rgb(255, 255, 255);
+  margin-block: 0.5rem;
+  box-shadow: 0px 0px 10px rgb(156, 156, 156);
+}
+
+.pricing-section__plan-heading {
+  font-size: 1.5rem;
+  color: white;
+  font-weight: 300;
+}
+
+.badge-normal {
+  background-color: black;
+  margin: 0;
+  padding: 2rem;
+}
+
+.badge-recommended {
+  background-color: rgb(255, 77, 22);
+  margin: 0;
+  padding: 3rem;
+}
+
+.pricing-section__plan-feature,
+.pricing-section__plan-feature--pricing span {
+  padding-block: 1.2rem;
+  border-bottom: 1px solid rgb(198, 198, 198);
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+
+.pricing-section__plan-feature--pricing p {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.pricing-section__plan-feature--pricing span {
+  color: #515151;
+  border-bottom: none;
+}
+
+.pricing-section__plan-feature--pricing {
+  border-bottom: 1px solid rgb(198, 198, 198);
+  padding-bottom: 1rem;
+}
+
+.pricing-section__plan-feature--signup {
+  padding-block: 1.5rem;
+  background-color: rgb(235, 235, 235);
+}
+
+.plan-feature--signup-button {
+  color: white;
+  background-color: black;
+  padding: 1rem 2rem;
+  font-size: 0.9rem;
+  font-weight: 300;
+  border: none;
+}
+
+.plan-feature--signup-button:hover {
+  color: black;
+  background-color: rgb(167, 167, 167);
+}
