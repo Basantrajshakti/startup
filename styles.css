@@ -513,3 +513,31 @@ body {
 .contact-section__map {
   width: 100%;
 }
+
+
+/* ?Footer section */
+footer {
+  background-color: black;
+  padding-block: 2rem;
+  text-align: center;
+  color: white;
+}
+
+.go-to-top {
+  padding: 0.6rem 2rem;
+  border: none;
+  cursor: pointer;
+}
+
+.go-to-top:hover {
+  background-color: rgb(185, 185, 185);
+}
+
+.footer__icons {
+  margin: 1rem;
+  letter-spacing: 2px;
+}
+
+.copyright {
+  margin: 0;
+}
