@@ -214,3 +214,31 @@ body {
   padding-inline: 1rem;
   font-weight: 300;
 }
+
+
+/* ?Design section */
+.design-section {
+  background-color: #f1f1f1;
+}
+
+.design-section__description {
+  font-weight: 300;
+}
+
+.design-section__work-viewer {
+  padding: 0.9rem 1rem;
+  font-size: 0.9rem;
+  background-color: rgb(9, 9, 9);
+  color: white;
+  border: none;
+}
+
+.design-section__work-viewer:hover {
+  background-color: rgb(188, 188, 188);
+  color: rgb(9, 9, 9);
+}
+
+.design-section__visit-works {
+  width: 100%;
+  padding-block: 1rem;
+}
