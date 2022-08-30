@@ -467,3 +467,49 @@ body {
   color: black;
   background-color: rgb(167, 167, 167);
 }
+
+
+
+/* ?contact section */
+.contact-section {
+  background-color: rgb(255, 223, 214);
+}
+
+.contact-section__details {
+  margin-block: 4rem;
+}
+
+.contact-section__form-input input {
+  width: 100%;
+  margin-block: 0.5rem;
+  height: 2.5rem;
+  padding-inline: 1rem;
+  border: none;
+  letter-spacing: 1px;
+  font-size: 1rem;
+  border-radius: 20px;
+}
+
+.contact-section__form-input input:focus {
+  outline: none;
+  border: 1px solid orangered;
+}
+
+.submit-form {
+  color: white;
+  background-color: black;
+  font-size: 1rem;
+  padding: 1rem;
+  border: none;
+  cursor: pointer;
+  margin-block: 1rem 5rem;
+}
+
+.submit-form:hover {
+  color: black;
+  background-color: rgb(174, 174, 174);
+}
+
+.contact-section__map {
+  width: 100%;
+}
