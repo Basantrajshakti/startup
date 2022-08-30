@@ -333,3 +333,51 @@ body {
 .our-work-section__works-image:hover {
   filter: contrast(0.5);
 }
+
+
+/* ?Skills section */
+.skills-section {
+  background-color: rgb(255, 245, 229);
+  padding: 5rem 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.skills-section__description,
+.skills-section__skill {
+  font-weight: 300;
+}
+
+.skills-section__skill {
+  letter-spacing: 3px;
+}
+
+.skills-section__skill i {
+  padding-right: 1rem;
+}
+
+.skills-section__skill-bar {
+  height: 1.5rem;
+  width: 100%;
+  background-color: #adadad;
+  color: #f1f1f1;
+  font-size: 0.95rem;
+  text-align: center;
+}
+
+.bar {
+  height: 100%;
+  background-color: #707070;
+}
+
+.bar1 {
+  width: 90%;
+}
+
+.bar2 {
+  width: 85%;
+}
+
+.bar3 {
+  width: 75%;
+}
