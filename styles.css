@@ -101,3 +101,94 @@ body {
 .main-nav {
   display: none;
 }
+
+
+/* ?Main section */
+.main-section {
+  background: url('./images/mac.jpg');
+  height: 91vh;
+  background-position: 40%;
+  margin-top: 9vh;
+  /* display: none; */
+  /*! remove this */
+}
+
+.main-section__start {
+  position: absolute;
+  margin: 12rem 2.5rem;
+  color: white;
+}
+
+.main-heading {
+  font-weight: 300;
+  font-size: 2.5rem;
+  margin-block: 0;
+}
+
+.main-heading+p {
+  font-weight: 300;
+  font-size: 1.1rem;
+}
+
+.button-to-start {
+  color: rgb(65, 65, 65);
+  background-color: rgb(207, 207, 207);
+  font-weight: 300;
+  font-size: 1.2rem;
+  padding-inline: 1.2rem;
+  height: 3.5rem;
+  margin-block: 1.5rem;
+  border: none;
+}
+
+.button-to-start:hover {
+  background-color: rgb(240, 240, 240);
+  color: black;
+}
+
+.social-media__icons {
+  position: inherit;
+  bottom: -5rem;
+  color: rgb(255, 255, 255);
+}
+
+
+/* ?Padding for all sections */
+.about-section,
+.team-section,
+.design-section,
+.pricing-section,
+.our-work-section,
+.contact-section
+{
+  text-align: center;
+  padding: 6rem 2rem;
+  /* display: none; */
+  /*! remove this */
+}
+
+
+/* ?Main heading for all */
+.about-section__main-heading,
+.design-section__main-heading,
+.our-work-section__main-heading,
+.skills-section__main-heading,
+.pricing-section__main-heading,
+.team-section__main-heading,
+.contact-section__main-heading
+{
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+
+/* ?Sub heading for all */
+.about-section__sub-heading,
+.team-section__sub-heading,
+.our-work-section__sub-heading,
+.pricing-section__sub-heading,
+.contact-section__sub-heading
+{
+  font-weight: 300;
+  font-size: 1.2rem;
+}
