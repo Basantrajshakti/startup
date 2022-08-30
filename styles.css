@@ -192,3 +192,25 @@ body {
   font-weight: 300;
   font-size: 1.2rem;
 }
+
+
+/* ?About section */
+.about-section__articles {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-section__article-icon {
+  margin-top: 3rem;
+  font-size: 5rem;
+}
+
+.about-section__article-heading {
+  padding-block: 1rem;
+  font-size: 1.2rem;
+}
+
+.about-section__article-description {
+  padding-inline: 1rem;
+  font-weight: 300;
+}
