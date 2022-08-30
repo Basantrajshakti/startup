@@ -292,3 +292,27 @@ body {
 .contact-member:hover {
   background-color: #d0d0d0;
 }
+
+
+/* ?General figures section */
+.general-figures {
+  padding-block: 7rem;
+  background-color: #707070;
+  color: #f1f1f1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.general-figure__counts {
+  font-weight: 400;
+  font-size: 2rem;
+  text-align: center;
+  margin: 0;
+}
+
+.general-figure__description {
+  margin-block: 0.5rem 2rem;
+  font-weight: 300;
+}
