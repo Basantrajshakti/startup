@@ -651,3 +651,16 @@ footer {
     width: 75%;
   }
 }
+
+
+@media (min-width:64rem) {
+  .team-section__team {
+    width: calc(25% - 2rem);
+  }
+
+  .our-work-section__works-image {
+    width: 25%;
+    margin-bottom: 0.5rem;
+  }
+
+}
