@@ -94,7 +94,7 @@ body {
   background-color: rgb(255, 245, 229);
 }
 
-.mobile-nav__item a:hover {
+.mobile-nav__item:hover a {
   color: rgb(0, 0, 0);
 }
 
@@ -146,10 +146,10 @@ body {
   color: black;
 }
 
-.social-media__icons {
+.social-media__icons a{
   position: inherit;
-  bottom: -5rem;
   color: rgb(255, 255, 255);
+  letter-spacing: 5px;
 }
 
 
@@ -536,6 +536,9 @@ footer {
 .footer__icons {
   margin: 1rem;
   letter-spacing: 2px;
+}
+.footer__icons a{
+  color: #fff;
 }
 
 .copyright {
